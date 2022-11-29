@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     # 步骤
     steps:
+    - uses: actions/checkout@main
     # 步骤名称
     - name: npm install
       # 步骤执行指令
